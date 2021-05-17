@@ -109,6 +109,7 @@ a {
   margin-right: -66px;
   margin-bottom: 20px;
   margin-top: 79px;
+  height: 496px;
 }
 
 .postagem-lateral {
@@ -122,10 +123,21 @@ a {
 .texto-postagem1 {
   padding: 16px;
 }
-
-#rodape {
-  clear: both;
-  text-align: center;
+#conteudo-lateral2 {
+  width: 246px;
+  float: right;
+  border-radius: 12px;
+  box-shadow: 13px 13px 21px grey;
+  background: white;
   padding: 15px;
-  background: #ccc;
+  margin-right: -18px;
+  margin-top: 81px;
+}
+#rodape {
+  height: 100px;
+  background: #f7b600;
+  margin-top: 1533px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 24px;
 }
