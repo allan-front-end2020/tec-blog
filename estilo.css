@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1rem;
+  font-family: "trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
+}
+/***layout***/
+#area-cabecalho {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 13px 13px 13px grey;
+}
+/***menu***/
+#menu {
+  padding: 10px;
+  margin: 10px;
+  font-size: 23px;
+}
+
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+h2 {
+  color: #f7b600;
+  margin-bottom: 13px;
+  font-size: 48px;
+  margin-left: 22px;
+}
+h3 {
+  color: #f7b600;
+  background: grey;
+  padding: 5px;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  margin-left: 22px;
+
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.branco {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+.btn {
+  width: 110px;
+  height: 49px;
+  border-radius: 27px;
+  font-size: 18px;
+  background: white;
+  margin-left: 17px;
+}
+.btn:visited {
+  color: #f7b600;
+}
+.btn:hover {
+  color: #f7b600;
+  box-shadow: 10px 10px 10px grey;
+  transform: 0, 9s;
+}
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+#area-cabecalho a:hover {
+  color: #f7b600;
+  background: #fff;
+  text-decoration: none;
+}
+
+/***area-pricipal***/
+
+#area-pincipal {
+  width: 920px;
+
+  margin: 0px auto;
+  padding: 37px;
+}
+
+#area-postagens {
+  width: 640px;
+  height: 678px;
+  float: left;
+  border-radius: 25px;
+  box-shadow: 13px 13px 21px grey;
+  background: white;
+  margin-top: 82px;
+}
+
+#area-lateral {
+  width: 240px;
+  float: right;
+  border-radius: 12px;
+  box-shadow: 13px 13px 21px grey;
+  background: white;
+  padding: 15px;
+  margin-right: -66px;
+  margin-bottom: 20px;
+  margin-top: 79px;
+}
+
+.postagem-lateral {
+  padding: 20px;
+}
+.img1 {
+  border-radius: 20px;
+  width: 589px;
+  margin-left: 23px;
+}
+.texto-postagem1 {
+  padding: 16px;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+}
